@@ -19,7 +19,8 @@
     <meta name='keywords' content='nom, food, eating'>
 
     <!-- This loads your CSS into the page -->
-    <link rel='stylesheet' href=''>
+    <link rel='stylesheet' href='css/reset.css'>
+    <link rel='stylesheet' href='css/styles.css'>
 
     <!-- This loads your favicon (shows in the browser tab) -->
     <link rel='icon' type='image/png' href='images/favicon.png'>
@@ -29,20 +30,25 @@
   <!-- The body is where your page content goes. -->
   <body>
     <header>
-      <h1>NOM NOM NOM!</h1>
+      <h1>NOM NOM NOM! <span>Food Page</span></h1>
     </header>
-    <section>
-      <h2>Introduction</h2>
-      <p>Nom nom nom nom nom nom nom. Eets good.</p>
-      <p>Pizza is a good nom nom. Pizza has always been there for me - sometimes when no one else was. <a href="https://twitter.com" target="_blank">Follow me on Twitter.</a></p>
-      <h2>Ungood Nom Noms</h2>
-      <p><img src="images/hair.jpg" /></p>
-      <ul>
-        <li>hair</li>
-        <li>rocks</li>
-        <li>carpet</li>
-      </ul>
-    </section>
+    <section class='intro'>
+      <div class='container'>
+        <h2>Introduction</h2>
+        <p>Nom nom nom nom nom nom nom. Eets good.</p>
+        <p>Pizza is a good nom nom. Pizza has always been there for me - sometimes when no one else was. <a href="https://twitter.com" target="_blank">Follow me on Twitter.</a></p>
+       </div>
+     </section>
+
+     <div class='container'>
+        <h2>Hair in the Mountains</h2>
+        <p><img src="images/hair.jpg" /></p>
+        <ul>
+          <li>hair</li>
+          <li>rocks</li>
+          <li>carpet</li>
+        </ul>
+      </div>
     <footer><p>Copyright 2015 Adrienne Brockhaus</p></footer>
 
   </body> <!-- body closing tag -->
